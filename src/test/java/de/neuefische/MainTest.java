@@ -21,7 +21,6 @@ class MainTest {
         boolean expected = false;
         boolean actual = Main.isPasswordLengthValid(given);
         assertEquals(expected, actual);
-
     }
 
     @Test
